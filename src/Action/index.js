@@ -10,3 +10,16 @@ export const decNumber = () => {
         type: "DECREMENT"
     }
 }
+
+export const multiNumber = (num) => {
+    return {
+        type: "MULTIPLY",
+        payload: num
+    }
+}
+
+export const divNumber = () => {
+    return {
+        type: "DIVIDE"
+    }
+}
